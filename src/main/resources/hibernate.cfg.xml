@@ -6,9 +6,10 @@
 <hibernate-configuration>
 	<session-factory>
 		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="connection.url">jdbc:mysql://localhost:3306/TODO</property>
+		<property name="connection.url">jdbc:mysql://containers-us-west-42.railway.app:7497/railway</property>
 		<property name="connection.username">root</property>
-		<property name="connection.password">12345</property>
+		<property name="connection.password">hDuyPybgA4DaopVnV5JX</property>
+		<property name="conn"></property>
 		<property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
